@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.zhejiangart.mapper.ProductMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.zhejiangart.model.vo.Product">
+        <id column="id" property="id" />
+        <result column="cate_id" property="cateId" />
+        <result column="is_sale" property="isSale" />
+        <result column="sort" property="sort" />
+        <result column="goods_name" property="goodsName" />
+        <result column="goods_desc" property="goodsDesc" />
+        <result column="price" property="price" />
+        <result column="inventory" property="inventory" />
+        <result column="logo_pic" property="logoPic" />
+        <result column="index_pic" property="indexPic" />
+        <result column="spu" property="spu" />
+        <result column="goods_cap" property="goodsCap" />
+        <result column="goods_mel" property="goodsMel" />
+        <result column="sale_time" property="saleTime" />
+        <result column="goods_range" property="goodsRange" />
+        <result column="goods_care" property="goodsCare" />
+        <result column="goods_com" property="goodsCom" />
+        <result column="express" property="express" />
+        <result column="volume" property="volume" />
+        <result column="collection" property="collection" />
+        <result column="delete_time" property="deleteTime" />
+        <result column="pm_start_time" property="pmStartTime" />
+        <result column="pm_end_time" property="pmEndTime" />
+        <result column="baoliu" property="baoliu" />
+        <result column="start_price" property="startPrice" />
+        <result column="fudu" property="fudu" />
+        <result column="yongjin" property="yongjin" />
+        <result column="zhouqi" property="zhouqi" />
+        <result column="weight" property="weight" />
+        <result column="attr_list" property="attrList" />
+        <result column="shenhe" property="shenhe" />
+        <result column="disagree_detail" property="disagreeDetail" />
+        <result column="user_id" property="userId" />
+        <result column="browser" property="browser" />
+        <result column="zujin" property="zujin" />
+        <result column="unit" property="unit" />
+        <result column="content" property="content" />
+        <result column="is_like" property="isLike" />
+        <result column="is_groom" property="isGroom" />
+        <result column="create_time" property="createTime" />
+        <result column="updat_time" property="updatTime" />
+        <result column="like" property="like" />
+        <result column="frame" property="frame" />
+        <result column="orther" property="orther" />
+    </resultMap>
+
+</mapper>

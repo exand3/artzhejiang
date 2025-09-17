@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.zhejiangart.mapper.ShowMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.zhejiangart.model.vo.Show">
+        <id column="id" property="id" />
+        <result column="title" property="title" />
+        <result column="address" property="address" />
+        <result column="user_id" property="userId" />
+        <result column="desc" property="desc" />
+        <result column="logo" property="logo" />
+        <result column="identify_desc" property="identifyDesc" />
+        <result column="phone" property="phone" />
+        <result column="product" property="product" />
+        <result column="images" property="images" />
+        <result column="status" property="status" />
+        <result column="price" property="price" />
+        <result column="start_time" property="startTime" />
+        <result column="end_time" property="endTime" />
+        <result column="biguan" property="biguan" />
+        <result column="create_time" property="createTime" />
+        <result column="shenhe" property="shenhe" />
+        <result column="refuse" property="refuse" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.zhejiangart.mapper.OrderitemMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.zhejiangart.model.vo.Orderitem">
+        <id column="id" property="id" />
+        <result column="product_id" property="productId" />
+        <result column="price" property="price" />
+        <result column="order_id" property="orderId" />
+        <result column="frame_price" property="framePrice" />
+        <result column="frame_id" property="frameId" />
+        <result column="count" property="count" />
+        <result column="image" property="image" />
+        <result column="product_name" property="productName" />
+    </resultMap>
+
+</mapper>

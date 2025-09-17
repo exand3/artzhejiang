@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.zhejiangart.mapper.UserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.zhejiangart.model.vo.User">
+        <id column="id" property="id" />
+        <result column="nickname" property="nickname" />
+        <result column="email" property="email" />
+        <result column="password" property="password" />
+        <result column="mobile" property="mobile" />
+        <result column="avatar" property="avatar" />
+        <result column="gender" property="gender" />
+        <result column="birthday" property="birthday" />
+        <result column="money" property="money" />
+        <result column="score" property="score" />
+        <result column="deposit" property="deposit" />
+        <result column="logintime" property="logintime" />
+        <result column="loginip" property="loginip" />
+        <result column="createtime" property="createtime" />
+        <result column="updatetime" property="updatetime" />
+        <result column="unionid" property="unionid" />
+        <result column="openid" property="openid" />
+        <result column="card_front" property="cardFront" />
+        <result column="card_back" property="cardBack" />
+        <result column="card_number" property="cardNumber" />
+        <result column="card_nature" property="cardNature" />
+        <result column="shenhe" property="shenhe" />
+        <result column="identify" property="identify" />
+        <result column="card_image" property="cardImage" />
+        <result column="card_card" property="cardCard" />
+        <result column="bank_card" property="bankCard" />
+        <result column="bank_address" property="bankAddress" />
+        <result column="identity_desc" property="identityDesc" />
+        <result column="real_name" property="realName" />
+        <result column="forbidden" property="forbidden" />
+        <result column="fans" property="fans" />
+        <result column="follow" property="follow" />
+        <result column="product_limit" property="productLimit" />
+        <result column="delete_time" property="deleteTime" />
+        <result column="major" property="major" />
+        <result column="shenhe_time" property="shenheTime" />
+        <result column="promoter" property="promoter" />
+    </resultMap>
+
+</mapper>

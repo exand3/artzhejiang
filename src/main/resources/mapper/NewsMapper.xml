@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.zhejiangart.mapper.NewsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.zhejiangart.model.vo.News">
+        <id column="id" property="id" />
+        <result column="cate_id" property="cateId" />
+        <result column="name" property="name" />
+        <result column="introduce" property="introduce" />
+        <result column="keyword" property="keyword" />
+        <result column="admin_id" property="adminId" />
+        <result column="sort" property="sort" />
+        <result column="image" property="image" />
+        <result column="images" property="images" />
+        <result column="detail" property="detail" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="status" property="status" />
+    </resultMap>
+
+</mapper>

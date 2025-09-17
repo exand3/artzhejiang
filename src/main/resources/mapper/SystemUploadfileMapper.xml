@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.zhejiangart.mapper.SystemUploadfileMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.zhejiangart.model.vo.SystemUploadfile">
+        <id column="id" property="id" />
+        <result column="upload_type" property="uploadType" />
+        <result column="original_name" property="originalName" />
+        <result column="url" property="url" />
+        <result column="image_width" property="imageWidth" />
+        <result column="image_height" property="imageHeight" />
+        <result column="image_type" property="imageType" />
+        <result column="image_frames" property="imageFrames" />
+        <result column="mime_type" property="mimeType" />
+        <result column="file_size" property="fileSize" />
+        <result column="file_ext" property="fileExt" />
+        <result column="sha1" property="sha1" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="upload_time" property="uploadTime" />
+        <result column="user_id" property="userId" />
+    </resultMap>
+
+</mapper>

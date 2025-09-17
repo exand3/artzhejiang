@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.zhejiangart.mapper.PaperListMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.zhejiangart.model.vo.PaperList">
+        <result column="id" property="id" />
+        <result column="number_id" property="numberId" />
+        <result column="user_id" property="userId" />
+        <result column="start" property="start" />
+        <result column="disagree_detail" property="disagreeDetail" />
+        <result column="counts" property="counts" />
+        <result column="picp" property="picp" />
+        <result column="is_del" property="isDel" />
+        <result column="author" property="author" />
+        <result column="phone" property="phone" />
+        <result column="email" property="email" />
+        <result column="wname" property="wname" />
+        <result column="wtype" property="wtype" />
+        <result column="wsize" property="wsize" />
+        <result column="wmaterial" property="wmaterial" />
+        <result column="likes" property="likes" />
+        <result column="zuo_detail" property="zuoDetail" />
+        <result column="visits" property="visits" />
+        <result column="wpic1" property="wpic1" />
+        <result column="wpic2" property="wpic2" />
+        <result column="wpic3" property="wpic3" />
+        <result column="wpic4" property="wpic4" />
+        <result column="wpic5" property="wpic5" />
+        <result column="birth" property="birth" />
+        <result column="sfid" property="sfid" />
+        <result column="person_detail" property="personDetail" />
+        <result column="prize_status" property="prizeStatus" />
+        <result column="zpbute" property="zpbute" />
+    </resultMap>
+
+</mapper>

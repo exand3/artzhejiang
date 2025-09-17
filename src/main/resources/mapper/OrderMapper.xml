@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.zhejiangart.mapper.OrderMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.zhejiangart.model.vo.Order">
+        <id column="id" property="id" />
+        <result column="order_no" property="orderNo" />
+        <result column="user_id" property="userId" />
+        <result column="username" property="username" />
+        <result column="user_phone" property="userPhone" />
+        <result column="pay_type" property="payType" />
+        <result column="remark" property="remark" />
+        <result column="score" property="score" />
+        <result column="score_fee" property="scoreFee" />
+        <result column="is_invoice" property="isInvoice" />
+        <result column="invoice_type" property="invoiceType" />
+        <result column="invoice_card" property="invoiceCard" />
+        <result column="invoice_name" property="invoiceName" />
+        <result column="invoice_email" property="invoiceEmail" />
+        <result column="status" property="status" />
+        <result column="express_company" property="expressCompany" />
+        <result column="express_number" property="expressNumber" />
+        <result column="total_price" property="totalPrice" />
+        <result column="delete_time" property="deleteTime" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="author" property="author" />
+        <result column="shou_province" property="shouProvince" />
+        <result column="shou_city" property="shouCity" />
+        <result column="shou_area" property="shouArea" />
+        <result column="shou_address" property="shouAddress" />
+        <result column="fa_province" property="faProvince" />
+        <result column="fa_phone" property="faPhone" />
+        <result column="fa_city" property="faCity" />
+        <result column="fa_area" property="faArea" />
+        <result column="fa_address" property="faAddress" />
+        <result column="quantity" property="quantity" />
+        <result column="cancel_reason" property="cancelReason" />
+        <result column="order_type_id" property="orderTypeId" />
+        <result column="pay_time" property="payTime" />
+        <result column="send_time" property="sendTime" />
+        <result column="receive_time" property="receiveTime" />
+        <result column="tuiguangren" property="tuiguangren" />
+        <result column="sign_time" property="signTime" />
+        <result column="refund_time" property="refundTime" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.zhejiangart.mapper.ReturnsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.zhejiangart.model.vo.Returns">
+        <id column="id" property="id" />
+        <result column="fa_id" property="faId" />
+        <result column="shou_id" property="shouId" />
+        <result column="order_id" property="orderId" />
+        <result column="refund_amount" property="refundAmount" />
+        <result column="return_reason" property="returnReason" />
+        <result column="freight_amount" property="freightAmount" />
+        <result column="freight_payer" property="freightPayer" />
+        <result column="express_company" property="expressCompany" />
+        <result column="express_number" property="expressNumber" />
+        <result column="fa_phone" property="faPhone" />
+        <result column="fa_province" property="faProvince" />
+        <result column="fa_city" property="faCity" />
+        <result column="fa_area" property="faArea" />
+        <result column="fa_address" property="faAddress" />
+        <result column="shou_phone" property="shouPhone" />
+        <result column="shou_province" property="shouProvince" />
+        <result column="shou_city" property="shouCity" />
+        <result column="shou_area" property="shouArea" />
+        <result column="shou_address" property="shouAddress" />
+        <result column="fa_time" property="faTime" />
+        <result column="shou_time" property="shouTime" />
+        <result column="refund_status" property="refundStatus" />
+        <result column="merchant_receive_status" property="merchantReceiveStatus" />
+        <result column="refund_time" property="refundTime" />
+        <result column="admin_id" property="adminId" />
+        <result column="baojia" property="baojia" />
+        <result column="refund_type" property="refundType" />
+        <result column="apply_images" property="applyImages" />
+        <result column="express_images" property="expressImages" />
+        <result column="admin_remark" property="adminRemark" />
+        <result column="create_time" property="createTime" />
+    </resultMap>
+
+</mapper>

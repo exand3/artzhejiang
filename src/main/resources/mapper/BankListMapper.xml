@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.zhejiangart.mapper.BankListMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.zhejiangart.model.vo.BankList">
+        <result column="id" property="id" />
+        <result column="user_id" property="userId" />
+        <result column="bank_no" property="bankNo" />
+        <result column="bank_name" property="bankName" />
+        <result column="bank_branch" property="bankBranch" />
+        <result column="username" property="username" />
+        <result column="telephone" property="telephone" />
+        <result column="create_at" property="createAt" />
+        <result column="update_at" property="updateAt" />
+    </resultMap>
+
+</mapper>

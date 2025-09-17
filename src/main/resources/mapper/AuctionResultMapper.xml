@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.zhejiangart.mapper.AuctionResultMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.zhejiangart.model.vo.AuctionResult">
+        <id column="id" property="id" />
+        <result column="auction_item_id" property="auctionItemId" />
+        <result column="winner_id" property="winnerId" />
+        <result column="final_price" property="finalPrice" />
+        <result column="status" property="status" />
+        <result column="seller_confirm" property="sellerConfirm" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+</mapper>

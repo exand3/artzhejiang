@@ -9,7 +9,7 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
-
+test
 # Java
 *.class
 *.jar
@@ -53,3 +53,5 @@ config-*.properties
 *.pem
 *.cert
 apiclient_cert.p12
+*.example
+*.config

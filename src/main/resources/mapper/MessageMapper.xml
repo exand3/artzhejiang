@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.zhejiangart.mapper.MessageMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.zhejiangart.model.vo.Message">
+        <id column="id" property="id" />
+        <result column="type_id" property="typeId" />
+        <result column="title" property="title" />
+        <result column="content" property="content" />
+        <result column="sender_id" property="senderId" />
+        <result column="receiver_id" property="receiverId" />
+        <result column="send_time" property="sendTime" />
+        <result column="is_read" property="isRead" />
+        <result column="read_time" property="readTime" />
+        <result column="status" property="status" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="image" property="image" />
+        <result column="activity_id" property="activityId" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.zhejiangart.mapper.AuctionBidMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.zhejiangart.model.vo.AuctionBid">
+        <id column="id" property="id" />
+        <result column="activity_id" property="activityId" />
+        <result column="product_id" property="productId" />
+        <result column="user_id" property="userId" />
+        <result column="amount" property="amount" />
+        <result column="bid_time" property="bidTime" />
+        <result column="plate" property="plate" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.zhejiangart.mapper.AuditMessageMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.com.zhejiangart.model.vo.AuditMessage">
+        <id column="message_id" property="messageId" />
+        <result column="audit_type" property="auditType" />
+        <result column="audit_status" property="auditStatus" />
+        <result column="audit_opinion" property="auditOpinion" />
+        <result column="related_id" property="relatedId" />
+    </resultMap>
+
+</mapper>
